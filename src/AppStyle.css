@@ -1,0 +1,95 @@
+html, body{
+    height: 100%;
+}
+#root{
+    height: 100%;
+
+}
+.app{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 100px 100px 100px;
+    height: 99%;
+
+}
+.card-style{
+    margin: 10px 0;
+    float: left;
+    clear: both;
+    box-shadow: none !important;
+    background-color: #f5f8f9 !important;
+}
+.my-user{
+    float: right;
+    clear: both;
+}
+.card-style div div div{
+    background-color: #e5eaec !important;
+
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.my-user div div div {
+    background-color: #91a0fc !important;
+}
+.my-user img{
+    float: right;
+    margin-left: 10px;
+    margin-right: 0 !important;
+}
+.card-style img{
+    margin-top: 31px;
+    width: 30px !important;
+    height: 30px !important;
+}
+.card-style span{
+    color: #919494 !important;
+}
+.my-user span{
+    color: #ffffff !important;
+}
+.msg-input{
+    display: inline-block;
+}
+.msg-button{
+    display: inline-block;
+}
+textarea{
+    border-radius: 15px;
+    border-color: transparent;
+    width: 100%;
+}
+::placeholder{
+    color: #ababab;
+    font-weight: lighter;
+    font-size: 14px;
+    padding: 5px;
+}
+input, textarea{
+    padding: 5px 5px 5px 15px;
+}
+img{
+    border: 1px solid #a59b9b;
+    border-radius: 50%;
+    width: 50px;
+    padding: 7px;
+    background: #ecf0f3;
+}
+.message-wrapper{
+    background: #f5f8f9;
+    height: 70vh;
+    text-align: left;
+    border-radius: 8px;
+    padding: 5px;
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.chat-messages{
+    overflow: visible;
+}
+
